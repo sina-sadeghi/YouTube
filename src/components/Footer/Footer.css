@@ -1,0 +1,41 @@
+.footer{
+    text-align: center;
+    background-color: #ffffff1f;
+    padding: 3%;
+}
+.footer *{font-family: Courgette;}
+
+.justPractice{
+    font-size: 1.5rem;
+}
+.creator{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.creator ins{
+    text-decoration: underline;
+    color: #e3e3e3;
+    font-size: 1.2rem;
+}
+.creator img{
+    opacity: .6;
+    width: 3%;
+    margin: 1%;
+}
+.creator img:hover{
+    opacity: 1;
+}
+
+.freeSite{
+    margin-top: 20px;
+    color: #92c75e;
+}
+
+
+@media only screen and (max-width: 481px) {
+    .creator img{
+        opacity: .6;
+        width: 5%;
+        margin: 1%;
+    }
+}

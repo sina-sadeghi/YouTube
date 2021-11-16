@@ -1,0 +1,74 @@
+.editProfile{margin-bottom: 20%;}
+.editProfile form{
+    border: 3px solid #a10000;
+    background: #ffffff21;
+    box-shadow: 0.5rem -0.5rem 1rem 1rem #270707d9;
+    padding: 2% 1% 1% 1%;
+    width: 100%;
+}
+.editProfile form .editProfilecase label, .editProfileGender label, .editProfile h3{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+.editProfile form .editProfilecase input, .editProfileGender span{
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+.editProfile .buttonEditProfile button, .editProfile .buttonEditProfile>span input {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #303cad;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: .8rem;
+    padding: 2%;
+    width: 24%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.editProfile .buttonEditProfile>span input{background-color: #ad303c;}
+.editProfile button span, .editProfile .buttonEditProfile>span input{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.editProfile button span:after, .editProfile .buttonEditProfile>span:after{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.editProfile button:hover span,  .editProfile .buttonEditProfile>span:hover input{
+    padding-right: 15px;
+}
+
+.editProfile button:hover span:after, .editProfile .buttonEditProfile>span:hover input:after{
+    opacity: 1;
+    right: 0;
+}
+
+.editProfilecase{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.editProfilecase input{background: #c5c5c5; color: #353535}
+.editProfilecase span{color: #ff3e3e; grid-column: 2}
+.editProfile form div:first-child input{color: #777777}
+.editProfile{
+    display: grid;
+    justify-content: center;
+}
+.editProfile .buttonEditProfile{
+    text-align: right;
+}
+
+@media only screen and (max-width: 485px) {
+    .editProfile *{font-size: 85%}
+    .editProfile{margin-bottom: 100%;}
+}

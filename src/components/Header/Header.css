@@ -1,0 +1,379 @@
+*{font-size: 1rem;}
+.Header{
+    display: grid;
+}
+
+.searchBar {
+    height: 100%;
+    width: 100%;
+}
+
+.searchBar form button {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    padding: 0;
+    color: #180000a3;
+    background: #d0d0d0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.searchBar form input {
+    font-weight: bold;
+    border: none;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 100px;
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 1%;
+    color: rgb(54, 54, 54);
+    background: #d0d0d0;
+    box-shadow: 0.15rem -0.12rem 0.2rem 0.02rem #825252;
+    transition: box-shadow .5s linear, width .3s ease-in, border .1s linear;
+}
+
+.searchBar form input:focus {
+    box-shadow: 0.15rem -0.12rem 0.2rem 0.02rem #a25252;
+    border: 2px solid #ca1d1f;
+    outline: none;
+}
+
+.logoHeader {
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.profileGoogleAuthHeader .googleAuth {
+    text-align: right;
+}
+
+.googleAuth .googleAuthOff {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1%;
+    cursor: pointer;
+    background: #e43232d9;
+    box-shadow: 0.1rem -0.1rem 0.1rem 0.01rem #a40000;
+}
+
+.googleAuth .googleAuthOn {
+    border: none;
+    border-radius: 3px;
+    margin: 1%;
+    cursor: pointer;
+    background: rgb(34,211,41,0.71);
+    box-shadow: 0.1rem -0.1rem 0.1rem 0.01rem #164718;
+}
+
+.profileHeader,  .profileHeaderOff{
+    height: 30px;
+}
+
+.profileHeader a, .profileHeaderOff {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.profileHeader span, .profileHeaderOff a{
+    font-size: 1.2rem;
+    background: #564d4d;
+    box-shadow: 0.05rem -0.05rem 0.2rem #9c8b8b;
+    padding: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    transition: box-shadow .1s ease-in;
+}
+
+.profileHeaderOff a:hover{box-shadow:none;}
+
+.profileHeaderOff img, .profileHeader img {
+    width: 83%;
+    height: 83%;
+    border-radius: 100%;
+    border: 2px solid #1c1a1b;
+}
+
+.profileHeader a div, .profileHeaderOff div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 90px;
+}
+
+.Header .searchBar .material-icons {background: none;}
+.Header>.material-icons {grid-row: 2;width: 24px;}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1100px) {
+    .Header{
+        grid-template-columns: 400px 1fr 285px;
+        grid-template-rows: 85px 24px;
+    }
+
+    .searchBar form button {
+        left: 30px;
+        top: 34px;
+    }
+
+    .searchBar form input {
+        padding-left: 13%;
+    }
+
+    .searchBar form input:focus {
+        width: 75%;
+    }
+
+    .logoHeader img {
+        width: 25%;
+    }
+
+    .profileGoogleAuthHeader {height: 85%;}
+    .profileGoogleAuthHeader .googleAuth {
+        height: 60%;
+        margin-top: 19.5%;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOff {
+        width: 30%;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOn {
+        width: 65%;
+        height: 60%;
+    }
+
+    .profileHeader,  .profileHeaderOff{
+        height: 40%;
+    }
+
+    .profileHeaderOff div {
+        width: 39px;
+        height: 39px;
+    }
+
+    .profileHeader a div {
+        width: 39px;
+        height: 39px;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1100px){
+    
+    .Header{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 85px 24px;
+    }
+
+    .searchBar form button {
+        left: 30px;
+        top: 34px;
+    }
+
+    .searchBar form input {
+        padding: 10px 10px 10px 52px;
+        margin-top: 17px;
+        width: 75%;
+    }
+
+    .searchBar form input:focus {
+        width: 85%;
+    }
+
+    
+    .logoHeader {margin: 50px 0 0 0;}
+    .logoHeader img{width: 35%;}
+
+    .profileGoogleAuthHeader {height: 85%;}
+    .profileGoogleAuthHeader .googleAuth {
+        height: 60%;
+        margin-top: 55px;
+    }
+
+    .profileHeaderOff img, .profileHeader img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOff {
+        width: 30%;
+        margin: 0;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOn {
+        width: 66%;
+        height: 60%;
+    }
+
+    .profileHeader,  .profileHeaderOff{
+        height: 40%;
+    }
+
+    .profileHeaderOff div {
+        width: 39px;
+        height: 39px;
+    }
+
+    .profileHeader a div {
+        width: 39px;
+        height: 39px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 720px){
+    
+    .Header{
+        grid-template-columns: 160px 1fr 1fr;
+    }
+
+    .searchBar form input {width: 80%;}
+
+    .searchBar form button {
+        left: 18px;
+        top: 19px;
+    }
+
+    .searchBar form input {
+        padding-left: 16%;
+    }
+
+    .logoHeader img {
+        width: 60px;
+    }
+
+    .profileGoogleAuthHeader{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 140%;
+    }
+
+    .profileHeader span, .profileHeaderOff a{
+        display: none;
+    }
+
+    .profileGoogleAuthHeader .googleAuth {
+        height: 30px;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOff {
+        width: 75px;
+        height: 30px;
+        margin-bottom: 3%;
+    }
+
+    .profileGoogleAuthHeader .googleAuth .googleAuthOn {
+        width: 80px;
+        height: 32px;
+        margin-bottom: 3%;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 481px) {
+    
+    .Header{
+        grid-template-columns: 1fr 20px 180px;
+    }
+
+    .searchBar{grid-column: 1/3;}
+    
+    .searchBar form button {
+        left: 10px;
+        top: 19px;
+    }
+
+    .searchBar form input {
+        padding: 3px 0 3px 19px;
+        margin: 8px 0 0 0;
+    }
+
+    .logoHeader {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .logoHeader img {
+        width: 60px;
+    }
+    .profileHeaderOff a {
+        width: 40px;
+        padding: 3px;
+    }
+    .profileGoogleAuthHeader{
+        grid-column: 2/4;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .profileGoogleAuthHeader .googleAuth {
+        display: none;
+    }
+    .profileHeader a div, .profileHeaderOff div {width: 34px;}
+    .profileHeader{display: inline;}
+    .profileHeader a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+    .profileHeader a img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .searchBar form button {
+        display: none;
+    }
+    .searchBar form input {
+        font-size: .8rem;
+        text-align: center;
+        padding: 3px;
+        margin: 4px 0 0 0;
+    }
+}

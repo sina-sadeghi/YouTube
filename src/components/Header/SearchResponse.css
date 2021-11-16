@@ -1,0 +1,50 @@
+.resultSearchVideo, .emptySeach{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3;
+    color: rgb(204, 121, 121);
+}
+.emptySeach .material-icons{font-size: 3rem;}
+
+.explanationSearchVideo{
+    display: grid;
+    grid-template-columns: 40% 5% 55%;
+    margin: 3% 0 3% 0;
+}
+.searchVideo img{
+    width: 100%;
+}
+
+.explanationSearchVideo>div{
+    grid-column: 3;
+    line-height: 1.5;
+}
+
+.explanationSearchVideo>div>span{
+    font-size: 1.6rem;
+}
+
+.explanationSearchVideo>div>div{
+    margin-top: 10%;
+}
+
+.searchVideo .material-icons{
+    color: #585757;
+}
+
+@media only screen and (min-width: 485px) and (max-width: 769px) {
+.resultSearchVideo, .emptySeach{font-size: 2.5rem}
+    .explanationSearchVideo>div>span{font-size: 1.4rem}
+.explanationSearchVideo>div>div *{font-size: 100%!important}
+}
+
+@media only screen and (max-width: 485px) {
+.resultSearchVideo, .emptySeach{font-size: 2rem;}
+    .explanationSearchVideo>div>span{font-size: 1rem}
+.explanationSearchVideo>div>div *{font-size: 85%!important}
+}
+@media only screen and (max-width: 335px) {
+    .explanationSearchVideo>div>span{font-size: .7rem}
+    .explanationSearchVideo>div>div{ margin: 0;}
+    .explanationSearchVideo>div>div>.searchVideoHistory{ color: #826a28 !important;}
+}

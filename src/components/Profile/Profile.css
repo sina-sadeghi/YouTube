@@ -1,0 +1,86 @@
+.profile{
+    border: 3px solid #a10000;
+    background: #ffffff21;
+    box-shadow: 0.5rem -0.5rem 1rem 1rem #270707d9;
+    padding: 2% 1% 1% 1%;
+}
+.profile td{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.profile img{
+    position: relative;
+    left: 72%;
+    border-radius: 3px;
+    border: 1px inset white;
+}
+.profile tr td:first-child{
+    color: #afafaf;
+    border-radius: 2px;
+}
+.profile tr{
+    padding: 50%;
+}
+.profile tr td:last-child{
+    border: 2px solid #191919;
+    color: #0b0b0b;
+    background: #757575;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.profile div{
+    text-align: right;
+}
+
+.profile button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #303cad;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    padding: 4%;
+    width: 35%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.profile button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.profile button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.profile button:hover span {
+    padding-right: 15px;
+}
+
+.profile button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+@media only screen and (min-width: 485px) and (max-width: 769px) {
+    .profile img{
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .profile img{
+        left: 61%;
+    }
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Courgette';
+    src: local('Courgette'), url(./fonts/Courgette-Regular.ttf) format('truetype');
+}
+* {
+    color: #d0d0d0;
+    text-decoration: none;
+}
+html{
+    /*background: #1c1a1b;*/
+    background: rgba(28,26,27,1);
+    font-family: Courgette;
+}
+@media only screen and (min-width: 480px) and (max-width: 720px){
+    html{font-size: 80%;}
+}
+@media only screen and (min-width: 480px) and (max-width: 720px){
+html{font-size: 78%;}
+}
+@media only screen and (max-width: 480px) {
+html{font-size: 62%;}
+}

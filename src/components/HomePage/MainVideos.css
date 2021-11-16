@@ -1,0 +1,229 @@
+.imageBold{
+    grid-column: 1/4;
+}
+.imageBold img{opacity: .4;border-radius: 20px;}
+.contentsMenuOn span, .contentsMenuOn a{
+    color: #ff1818e6;
+    text-shadow: none;
+}
+.contentsMenuOn:hover span, .contentsMenuOn:hover a{
+    left: 0 !important;
+}
+.mainVideo .material-icons{
+    font-size: 1.1rem;
+    margin: 3%;
+    color: #585757;
+}
+
+
+
+.mainVideos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: Courgette;
+}
+.mainVideo{
+    margin: 1%;
+    border: 2px solid #ff00005c;
+    box-shadow: 0.05rem -0.05rem 0.3rem 0.03rem #a40000;
+}
+
+.mainVideo img{border-radius: 3%; width: 100%;}
+
+.mainVideo .saveVideo .material-icons{
+    font-size: 1.6rem;
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.mainVideo img:hover{
+    transform: perspective(50em) translateZ(2em);
+    transition: transform .2s linear;
+}
+
+.mainVideo:hover{box-shadow: none; background: #282626; transition: box-shadow .2s linear, background .2s linear}
+
+.mainVideo div{color: #b8b8b8;}
+.mainVideo span .viewLikeMainVideo, .mainVideo span .dateSaveMainVideo{font-size: .9rem; color: #b8b8b8;}
+
+.dateSaveMainVideo{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 15px 10fr 1fr;
+    margin: 3%;
+}
+
+.viewLikeMainVideo{
+    text-align: center;
+    margin: 3%;
+}
+
+
+.mainVideos + div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.mainVideos + div span{font-size: 2rem;}
+
+.mainVideos + div span:hover{
+    color: #1c1a1b;
+    border-radius: 1rem;
+    background: #d0d0d0;
+    cursor: pointer;
+}
+
+.contentsMenuOn span, .contentsMenuOn a{font-size: 1.7rem !important; vertical-align: middle;}
+
+
+
+.titleSaveMessage{text-align: center; text-shadow: .1rem -.1rem .2rem #e31f1f}
+.titleSaveMessage span{font-size:3.8rem}
+
+
+
+
+
+@media only screen and (max-width: 485px) {
+
+    .contents span, .contents a{font-size: 1.1rem !important; margin-right: 2px;}
+    .contents>div{
+        background-color: #ffffff10;
+        margin: 2% 0 2% 0;
+        padding: 1%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .contents>div>div{margin: 1.5%;}
+    .contents>div *{display: inline;}
+    .contents hr{display: none;}
+
+    .contents a{line-height: 1; border-bottom: 1px solid #ff171787;}
+
+    .contents div div:hover a{
+        text-shadow: .16rem -.16rem .13rem #6e2828;
+        transition: text-shadow .1s linear;
+    }
+
+    .contents .material-icons{
+        font-size: 110%;
+        position: relative;
+        top: 15%;
+    }
+    .contentsMenuOn span, .contentsMenuOn a{font-size: .9rem !important; vertical-align: inherit;}
+
+
+    .mainVideo{
+        width: 11rem;
+    }
+
+    
+.titleSaveMessage{text-align: center; text-shadow: .1rem -.1rem .2rem #e31f1f}
+.titleSaveMessage span{font-size:2.5rem}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 485px) and (max-width: 769px) {
+    .homePage, .saveMessage{
+        display: grid;
+        grid-template-columns: 20% 1fr 80%;
+    }
+
+    .contents{grid-column: 1;}
+    .contents>div{margin-top: 10%;}
+
+    .contents a{
+        position: relative;
+        left: 0;
+        font-size: 140%;
+        line-height: 150%;
+        text-shadow: .1rem -.1rem .15rem #625f5f;
+    }
+    .contents div div:hover a{
+        left: 7%;
+        text-shadow: .12rem -.12rem .1rem #6e2828;
+        transition: left .25s ease-in,
+        text-shadow .1s linear;
+    }
+    .contents span{
+        display: block;
+    }
+    .contents hr{
+        position: relative;
+        left:-5%;
+        text-align: right;
+        box-shadow: .12rem -.12rem .8rem #ff00008c;
+        width: 90%;
+        background: #787878;
+    }
+    .contents .material-icons{
+        margin: 3%;
+    }
+
+    .mainVideos + div span:hover{
+        color: #1c1a1b;
+        border-radius: 100px;
+        background: #d0d0d0;
+        cursor: pointer;
+    }
+    .mainVideos + div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+        margin-top: 1%;
+        font-size: 200%;
+    }
+
+    .mainVideo{
+        width: 12rem;
+    }
+   
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+    .homePage, .saveMessage{
+        display: grid;
+        grid-template-columns: 20% 5% 75%;
+    }
+
+    .contents{grid-column: 1;}
+    .contents>div{margin-top: 20%;}
+
+    .contents a{
+        position: relative;
+        left: 0;
+        font-size: 2rem;
+        line-height: 2;
+        text-shadow: .1rem -.1rem .15rem #625f5f;
+    }
+    .contents div div:hover a{
+        left: 7%;
+        text-shadow: .12rem -.12rem .1rem #6e2828;
+        transition: left .25s ease-in,
+        text-shadow .1s linear;
+    }
+    .contents hr{
+        position: relative;
+        box-shadow: .12rem -.12rem .8rem #ff00008c;
+        width: 100%;
+        background: #787878;
+    }
+    .contents .material-icons{
+        margin: 5%;
+    }
+
+    .mainVideo{
+        width: 13rem;
+    }
+    
+}
