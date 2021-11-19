@@ -1,5 +1,6 @@
-به نام خدا   
-این اولین پروژه جدی من است و فقط برای تمرین خودم بود
+Hi.
+this is my fierst project.
+this is just for practice and show my skills.
 ------------------------------------
 For the program to work properly,
 add node_modules next to this file as well as the users folder and
