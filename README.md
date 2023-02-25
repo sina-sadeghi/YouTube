@@ -7,30 +7,30 @@ add node_modules next to this file as well as the users folder and
 activate the same users folder in cmd and then 
 activate the project itself.
 -------------------------------------
-لطفا کاربران مقیم ایران برای مشاهده سایت ابتدا فیلتر شکن خود را روشن کنند.
+Please, users living in Iran to view the site, first turn on their filter breaker.
 
-اولا بگم که این پروژه برای لپ تاپ و تبلت و گوشی همراه کامل واکنش گرا است.
-و همچنین توسط ری اکت نوشته شده است.
-ابتدا که سایت باز می شود داخل صفحه خانه هستید.
-هدر سایت در ابتدا سپس منوبار و تعدادی از بهترین ویدیو های اخیر یوتیوب نمایش داده شده است
-که با کلیک روی به علاوه ی انتها آن تعداد ان ها بیشتر می شود.
+First, let me say that this project is fully responsive for laptops, tablets and mobile phones.
+And also written by React.
+When the site opens, you are on the home page.
+The header of the site is displayed first, then the menu bar and some of the best recent YouTube videos
+Clicking on the plus sign at the end will increase their number.
 
-پس از آن تعدادی از بهترین چنل های یوتیوب نمایش داده شده است و در اخر فوتر سایت که اطلاعاتی برای ارتباط با من را نمایش داده است.
-با کلیک بر روی عکس هر کدام از ویدیو ها به صفحه ی دیگری منتقل میشوید که آن ویدیو را برایشما نمایش می گذارد و 
-در پایین آن اطلاعات کامل آن ویدیو و در آخر چنلی که آن ویدیو را بارگزاری کرده نمایش داده می شود.
-در منو قسمتی به نام پروفایل قرار داده شده.
- با کلیک بر آن یا کلیک بر روی ورود در هدر وارد قسمت ورود به سایت با گوگل می شوید و
- می توانید ب جای آن کار مستقیما در هدر روی دکمه ورود با گوگل کلیک کنید.
+After that, some of the best YouTube channels are displayed, and at the end, the site's footer displays information to contact me.
+By clicking on the photo of each video, you will be transferred to another page that will display that video for you.
+At the bottom, the complete information of that video is displayed, and at the end, the channel that uploaded that video is displayed.
+There is a section called profile in the menu.
+  By clicking on it or clicking on login in the header, you will enter the login section of the site with Google
+  You can click on the login with Google button directly in the header instead.
 
-پس از ورود دکمه ی ذخیره در ویدیو ها نمایش داده می شود که می توانید از آنها برای ذخیره ویدیو مورد نظر استفاده کنید.
-اگر پس از ورود از طریق گوگل داخل پروفایل داخل منو بار بروید یک جدول با اطلاعات شما نمایش داده می شود.
-میتوانید از طریق دکمه ویرایش اطلاعات وارد صفحه جدید شوید و اطلاعات خود را آپدیت کنید به جز ایمیل که آن غیر قابل ویرایش است.
-اطلاعات فرم کاملا اعتبار سنجی می شود و نمیتوانید فیلدی را خالی بگذارید یا فرمت اشتباه پر کنید.
-پس از ثبت اطلاعات آن ها ذخیره شده و از آن لحطه در جدول اطلاعات بروز شما نمایش داده می شود.
-همچنین اگر ویدیویی را ذخیره کنید در قسمت ذخیره شده ها در منو بار میتوایند همه آنها را به ترتیب زمان بندی مشاهده کنید.
- همچنین دکمه خروجج در منوبار مثل ئکمه خروج در هدر باعث میشود شما از محیط کاربری خارج شوید و اکمان سیو ویدیو از شما گرفته می شود.
+After entering, the save button will be displayed in the videos, which you can use to save the desired video.
+If you go to the profile in the menu after logging in through Google, a table with your information will be displayed.
+You can enter the new page and update your information through the edit information button, except for the email, which cannot be edited.
+The form information is fully validated and you cannot leave a field empty or fill in the wrong format.
+After registration, their information will be saved and will be displayed in your updated information table.
+Also, if you save a video, you can view all of them in chronological order in the saved section of the bar menu.
+  Also, the exit button in the menu bar, like the exit button in the header, will make you exit the user environment and the save video command will be taken from you.
 
-اگر هم وارد شده باشید در سایت میبینید که در هدر ایمیل و عکس شما نمایش داده شده و اگر خارج باشید دکمه ورود و عکس خال نمایش داده می شود.
-در هدر قسمت سرچ هم قرار داده شده که میتوانید کلماتی را در آن جست و جو کنید و ویدیو های مرتبط به آن را مشاهده کنید
+If you are logged in, you will see that your email and photo are displayed in the header, and if you are logged out, the login button and your picture will be displayed.
+There is also a search section in the header where you can search for words and watch related videos.
 
-موفق و پایدار باشید  ;)
+Good luck ;)
